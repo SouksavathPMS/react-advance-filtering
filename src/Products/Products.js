@@ -1,11 +1,13 @@
 
-import React from 'react'
+import React from 'react';
 import './Products.css';
 
-function Products() {
-  return (
-    <div>Products</div>
-  )
+function Products({ result }) {
+    return <>
+        <section className='card-container'>
+            {result}
+        </section>
+    </>
 }
 
-export default Products;
+export default Products; 
